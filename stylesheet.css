@@ -1,0 +1,65 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+font-family: myFirstFont;
+	text-align: center;
+	/*font-family: Garamond, serif;*/
+	font-size: 18px;
+}
+
+/*Start adding your CSS below!*/
+
+div { 
+    /*properties of the button */
+    height: 50px;
+    width: 120px;
+    background-color: #BCD2EE;
+    /*for border properties*/
+    border-color: #6495ED;
+    border-style: solid;
+    border-width: 2px;
+    /*new property*/
+    border-radius: 10px ;    
+    /*positioning the button*/
+    margin: auto;
+    text-align: center;
+}  
+
+a { /*for the link*/
+    text-decoration: none;
+    color: blue;
+    font-family: serif;
+}    
+ 
+span {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Verdana;
+    color: purple;
+}   
+
+.button, .button:visited {
+    /*background: #222 url(overlay.png) repeat-x;*/
+    /*display: inline-block;*/
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    /*position: relative;*/
+    cursor: pointer;
+} 
